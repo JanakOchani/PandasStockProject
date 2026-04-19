@@ -42,8 +42,7 @@ class StockProcessor:
 
         stocks_df = pd.DataFrame(stock_results)
         stocks_df.to_csv("stock_info.csv")
-        return stocks_df.to_json()
-
+        return stocks_df
 
 
 
